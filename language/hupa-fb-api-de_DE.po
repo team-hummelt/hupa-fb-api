@@ -1,0 +1,549 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2021-06-30 20:10+0200\n"
+"PO-Revision-Date: 2021-06-30 20:10+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.0\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e;esc_html;esc_html__;esc_att;esc_attr__;"
+"esc_attr_e\n"
+"X-Poedit-SearchPath-0: pages-admin\n"
+"X-Poedit-SearchPath-1: inc\n"
+"X-Poedit-SearchPath-2: pages-public\n"
+
+#: inc/ajax/backend-ajax.php:133
+msgid "No access token found!"
+msgstr "Kein Access-Token gefunden!"
+
+#: inc/ajax/backend-ajax.php:160
+msgid "Category name is a required field!"
+msgstr "Kategoriename ist ein Pflichtfeld!"
+
+#: inc/ajax/backend-ajax.php:166
+msgid "The title form is required!"
+msgstr "Die Titelform ist Pflichtfeld!"
+
+#: inc/ajax/backend-ajax.php:174
+msgid "Title form must have at least 5 characters!"
+msgstr "Titelform muss min. 5 Zeichen haben!"
+
+#: inc/ajax/backend-ajax.php:181
+msgid "Title form wrong format! Only letters, numbers, hyphens or underscores."
+msgstr ""
+"Titelform falsches Format! Nur Buchstaben, Zahlen, Bindestriche oder "
+"Unterstriche."
+
+#: inc/ajax/backend-ajax.php:190
+msgid "Name or title form already exists!"
+msgstr "Name oder Titelform schon vorhanden!"
+
+#: inc/ajax/backend-ajax.php:207 inc/hooks/filter/hupa-fp-api-settings.php:220
+#: pages-admin/hupa-api-sites.php:168 pages-admin/hupa-api-sites.php:183
+msgid "select"
+msgstr "auswählen"
+
+#: inc/ajax/backend-ajax.php:208
+msgid "saved"
+msgstr "gespeichert"
+
+#: inc/ajax/backend-ajax.php:232
+msgid "The input field Name/Location is a mandatory field!"
+msgstr "Die Eingabefeld Name/Location ist ein Pflichtfeld!"
+
+#: inc/ajax/backend-ajax.php:270 inc/ajax/backend-ajax.php:302
+#, php-format
+msgid "Name or location \"%s\" already exists!"
+msgstr "Name oder Location \"%s\" schon vorhanden!"
+
+#: inc/ajax/backend-ajax.php:310
+msgid "Changes saved"
+msgstr "Änderungen gespeichert"
+
+#: inc/ajax/backend-ajax.php:416
+msgid "All posts and events deleted!"
+msgstr "Alle Beiträge und Veranstaltungen gelöscht!"
+
+#: inc/ajax/backend-ajax.php:434 inc/hooks/cron/api-cronjob-exec.php:26
+#: inc/hooks/filter/hupa-fb-api-imports.php:438
+#: inc/hooks/filter/hupa-fb-api-imports.php:679
+#: pages-public/hupa-fb-api-sync.php:12
+msgid "Synchronisation successful"
+msgstr "Synchronisation erfolgreich"
+
+#: inc/ajax/backend-ajax.php:452
+msgid "Reset successful"
+msgstr "Reset erfolgreich"
+
+#: inc/ajax/backend-ajax.php:523 pages-admin/hupa-api-sites.php:218
+msgid "Edit"
+msgstr "Bearbeiten"
+
+#: inc/hooks/cron/hupa-fb-api-cron.php:77
+#: inc/hooks/cron/hupa-fb-api-cron.php:200
+#, php-format
+msgid "every %d minutes"
+msgstr "alle %d Minuten"
+
+#: inc/hooks/cron/hupa-fb-api-cron.php:81
+msgid "Hourly"
+msgstr "Stündlich"
+
+#: inc/hooks/cron/hupa-fb-api-cron.php:85
+#: inc/hooks/cron/hupa-fb-api-cron.php:89
+#: inc/hooks/cron/hupa-fb-api-cron.php:93
+#: inc/hooks/cron/hupa-fb-api-cron.php:208
+#: inc/hooks/cron/hupa-fb-api-cron.php:212
+#: inc/hooks/cron/hupa-fb-api-cron.php:216
+#, php-format
+msgid "every %d hours"
+msgstr "alle %d Stunden"
+
+#: inc/hooks/cron/hupa-fb-api-cron.php:97
+#: inc/hooks/cron/hupa-fb-api-cron.php:220
+#, php-format
+msgid "every %d days"
+msgstr "alle %d Tage"
+
+#: inc/hooks/cron/hupa-fb-api-cron.php:204
+msgid "hourly"
+msgstr "stündlich"
+
+#: inc/hooks/fb-api/hupa-fb-api-plugin-app.php:66
+#: inc/hooks/fb-api/hupa-fb-api-plugin-app.php:109
+#: inc/hooks/fb-api/hupa-fb-api-plugin-app.php:152
+msgid "no access token stored!"
+msgstr "kein Access-Token gespeichert!"
+
+#: inc/hooks/fb-api/hupa-fb-api-plugin-app.php:77
+#: inc/hooks/fb-api/hupa-fb-api-plugin-app.php:120
+#: inc/hooks/fb-api/hupa-fb-api-plugin-app.php:160
+msgid "Facebook Graph error: "
+msgstr "Facebook Graph-Fehler: "
+
+#: inc/hooks/fb-api/hupa-fb-api-plugin-app.php:82
+#: inc/hooks/fb-api/hupa-fb-api-plugin-app.php:125
+#: inc/hooks/fb-api/hupa-fb-api-plugin-app.php:164
+#: inc/hooks/fb-api/hupa-fb-api-plugin-app.php:172
+msgid "Facebook SDK error: "
+msgstr "Facebook SDK-Fehler: "
+
+#: inc/hooks/fb-api/hupa-fb-api-plugin-app.php:88
+msgid "no new data found!"
+msgstr "keine neuen Daten gefunden!"
+
+#: inc/hooks/fb-api/hupa-fb-api-plugin-app.php:131
+msgid "no data found!"
+msgstr "keine Daten gefunden!"
+
+#: inc/hooks/fb-api/hupa-fb-api-plugin-app.php:177
+msgid "Logged in as "
+msgstr "Angemeldet als "
+
+#: inc/hooks/filter/hupa-fb-api-imports.php:162
+#, php-format
+msgid "New import \"%s\" with the ID: %d created!"
+msgstr "Neuer Import \"%s\" mit der ID: %d erstellt!"
+
+#: inc/hooks/filter/hupa-fb-api-imports.php:166
+#, php-format
+msgid "\"%s\" could not be saved!"
+msgstr "\"%s\" konnte nicht gespeichert werden!"
+
+#: inc/hooks/filter/hupa-fb-api-imports.php:269
+#: inc/hooks/filter/hupa-fb-api-imports.php:541
+msgid "Synchronisation error!"
+msgstr "Fehler bei der Synchronisation!"
+
+#: inc/hooks/filter/hupa-fb-api-imports.php:302
+#: inc/hooks/filter/hupa-fb-api-imports.php:559
+msgid "Number for imports is 0!"
+msgstr "Anzahl für Importe ist 0!"
+
+#: inc/hooks/filter/hupa-fb-api-imports.php:802
+msgid "Event"
+msgstr "Veranstaltung"
+
+#: inc/hooks/filter/hupa-fp-api-settings.php:207
+#: pages-admin/hupa-api-sites.php:89
+msgid "Name or location for this import:"
+msgstr "Name oder Location für diesen Import:"
+
+#: inc/hooks/filter/hupa-fp-api-settings.php:208
+#: pages-admin/hupa-api-sites.php:95
+msgid "This name is displayed on the website.."
+msgstr "Dieser Name wird auf der Website angezeigt."
+
+#: inc/hooks/filter/hupa-fp-api-settings.php:209
+#: pages-admin/hupa-api-sites.php:102
+msgid "Description for this import:"
+msgstr "Beschreibung für diesen Import:"
+
+#: inc/hooks/filter/hupa-fp-api-settings.php:210
+#: pages-admin/hupa-api-sites.php:106
+msgid "The description is optional."
+msgstr "Die Beschreibung ist optional."
+
+#: inc/hooks/filter/hupa-fp-api-settings.php:211
+#: pages-admin/hupa-api-sites.php:113
+msgid "Max. Number of posts and events Import:"
+msgstr "Max. Anzahl von Posts und Veranstaltungen importieren:"
+
+#: inc/hooks/filter/hupa-fp-api-settings.php:212
+#: pages-admin/hupa-api-sites.php:119
+msgid "The standard value is 100."
+msgstr "Der Standardwert ist 100."
+
+#: inc/hooks/filter/hupa-fp-api-settings.php:213
+#: pages-admin/hupa-api-sites.php:124
+msgid "Facebook Api and WordPress Options:"
+msgstr "Facebook-API und WordPress Optionen:"
+
+#: inc/hooks/filter/hupa-fp-api-settings.php:214
+#: pages-admin/hupa-api-sites.php:133
+msgid ""
+"If you do not enter a Page ID or User ID, your Facebook User ID will be used."
+msgstr ""
+"Geben Sie keine Page-ID oder User-ID ein, wird Ihre Facebook User-ID "
+"verwendet."
+
+#: inc/hooks/filter/hupa-fp-api-settings.php:215
+#: pages-admin/hupa-api-sites.php:141
+msgid "Facebook User-ID:"
+msgstr "Facebook User-ID:"
+
+#: inc/hooks/filter/hupa-fp-api-settings.php:216
+#: pages-admin/hupa-api-sites.php:145
+msgid "Only posts and events of the user are imported."
+msgstr "Nur Posts und Veranstaltungen des User werden importiert."
+
+#: inc/hooks/filter/hupa-fp-api-settings.php:217
+#: pages-admin/hupa-api-sites.php:153
+msgid "User ID active"
+msgstr "User-ID aktiv"
+
+#: inc/hooks/filter/hupa-fp-api-settings.php:218
+#: pages-admin/hupa-api-sites.php:158
+msgid "Select category for Facebook posts and events:"
+msgstr "Kategorie für Facebook Posts und Veranstaltungen auswählen:"
+
+#: inc/hooks/filter/hupa-fp-api-settings.php:219
+#: pages-admin/hupa-api-sites.php:159
+msgid ""
+"If you do not select a category, the default categories for posts or events "
+"will be used."
+msgstr ""
+"Wählen Sie keine Kategorie aus, werden die Standard-Kategorien für Posts "
+"bzw. Veranstaltungen verwendet."
+
+#: inc/hooks/filter/hupa-fp-api-settings.php:221
+#: pages-admin/hupa-api-sites.php:165
+msgid "Category for posts:"
+msgstr "Kategorie für Posts:"
+
+#: inc/hooks/filter/hupa-fp-api-settings.php:222
+#: pages-admin/hupa-api-sites.php:180
+msgid "Category for events:"
+msgstr "Kategorie für Veranstaltungen:"
+
+#: inc/hooks/filter/hupa-fp-api-settings.php:223
+#: pages-admin/hupa-api-sites.php:191
+msgid "Create a new category for Facebook posts or events:"
+msgstr "Neue Kategorie für Facebook Posts oder Veranstaltungen erstellen:"
+
+#: inc/hooks/filter/hupa-fp-api-settings.php:224
+#: pages-admin/hupa-api-sites.php:195
+msgid "Create new category"
+msgstr "Neue Kategorie erstellen"
+
+#: inc/hooks/filter/hupa-fp-api-settings.php:225
+#: pages-admin/hupa-api-sites.php:198
+msgid "Create a new Facebook import"
+msgstr "Neuen Facebook Import erstellen"
+
+#: inc/hooks/filter/hupa-fp-api-settings.php:226
+msgid "Save changes"
+msgstr "Änderungen speichern"
+
+#: inc/hooks/filter/hupa-fp-api-settings.php:227
+msgid "back to the overview"
+msgstr "zurück zur Übersicht"
+
+#: inc/hooks/filter/hupa-fp-api-settings.php:228
+msgid "Synchronise now"
+msgstr "Jetzt Synchronisieren"
+
+#: inc/hooks/filter/hupa-fp-api-settings.php:229
+msgid "Delete import"
+msgstr "Import löschen"
+
+#: inc/hooks/filter/hupa-fp-api-settings.php:230
+msgid "Reset Import"
+msgstr "Reset Import"
+
+#: inc/hooks/filter/hupa-fp-api-settings.php:231
+msgid "Delete all posts"
+msgstr "Alle Posts löschen"
+
+#: inc/hooks/filter/hupa-fp-api-settings.php:234
+msgid "Delete import?"
+msgstr "Import löschen?"
+
+#: inc/hooks/filter/hupa-fp-api-settings.php:235
+msgid "Delete import really?"
+msgstr "Import wirklich löschen?"
+
+#: inc/hooks/filter/hupa-fp-api-settings.php:236
+msgid "Delete posts?"
+msgstr "Beiträge löschen?"
+
+#: inc/hooks/filter/hupa-fp-api-settings.php:237
+msgid "Delete all events and posts?"
+msgstr "Alle Veranstaltungen und Beiträge löschen?"
+
+#: inc/hooks/filter/hupa-fp-api-settings.php:238
+msgid "The deletion can <b class=\"text-danger\"> not</b> be undone!"
+msgstr ""
+"Das Löschen kann <b class=\"text-danger\"> nicht</b> rückgängig gemacht "
+"werden!"
+
+#: inc/register-hupa-fb-plugin.php:90 inc/register-hupa-fb-plugin.php:91
+msgid "FB-Importer"
+msgstr "FB-Importer"
+
+#: inc/register-hupa-fb-plugin.php:101 inc/register-hupa-fb-plugin.php:102
+msgid "FB pages"
+msgstr "FB Seiten"
+
+#: inc/register-hupa-fb-plugin.php:217 inc/register-hupa-fb-plugin.php:218
+msgid "Facebook Posts"
+msgstr "Facebook Beiträge"
+
+#: inc/register-hupa-fb-plugin.php:219
+msgid "Edit Facebook Post"
+msgstr "Facebook-Post bearbeiten"
+
+#: inc/register-hupa-fb-plugin.php:220
+msgid "Facebook Posts navigation"
+msgstr "Facebook Beiträge Navigation"
+
+#: inc/register-hupa-fb-plugin.php:221
+msgid "Add new post"
+msgstr "Neuen Post hinzufügen"
+
+#: inc/register-hupa-fb-plugin.php:222
+msgid "Facebook Posts Archives"
+msgstr "Facebook Posts Archive"
+
+#: inc/register-hupa-fb-plugin.php:250 inc/register-hupa-fb-plugin.php:260
+msgid "Facebook Categories"
+msgstr "Facebook Kategorien"
+
+#: inc/register-hupa-fb-plugin.php:251
+msgid "Facebook Category"
+msgstr "Facebook-Kategorie"
+
+#: inc/register-hupa-fb-plugin.php:252
+msgid "Search Facebook Categories"
+msgstr "Facebook-Kategorien suchen"
+
+#: inc/register-hupa-fb-plugin.php:253
+msgid "All Facebook Categories"
+msgstr "Alle Facebook-Kategorien"
+
+#: inc/register-hupa-fb-plugin.php:254
+msgid "Parent Facebook Category"
+msgstr "Übergeordnete Facebook-Kategorie"
+
+#: inc/register-hupa-fb-plugin.php:255
+msgid "Parent Facebook Category:"
+msgstr "Übergeordnete Facebook-Kategorie:"
+
+#: inc/register-hupa-fb-plugin.php:256
+msgid "Edit Facebook Category"
+msgstr "Facebook-Kategorie bearbeiten"
+
+#: inc/register-hupa-fb-plugin.php:257
+msgid "Update Facebook Category"
+msgstr "Facebook-Kategorie aktualisieren"
+
+#: inc/register-hupa-fb-plugin.php:258
+msgid "Add New Facebook Category"
+msgstr "Neue Facebook-Kategorie hinzufügen"
+
+#: inc/register-hupa-fb-plugin.php:259
+msgid "New Facebook Category"
+msgstr "Neue Facebook-Kategorie"
+
+#: inc/register-hupa-fb-plugin.php:282
+msgid "Standard category for posts"
+msgstr "Standard Kategorie für Posts"
+
+#: inc/register-hupa-fb-plugin.php:294
+msgid "Standard category for events"
+msgstr "Standard Kategorie für Veranstaltungen"
+
+#: inc/register-hupa-fb-plugin.php:331
+#, php-format
+msgid ""
+"This plugin has been disabled because it requires a PHP version greater than "
+"%s and a WordPress version greater than %s. Your PHP version can be updated "
+"by your hosting provider."
+msgstr ""
+"Dieses Plugin wurde deaktiviert, weil es eine PHP-Version größer als %s und "
+"eine WordPress-Version größer als %s benötigt. Ihre PHP-Version kann von "
+"Ihrem Hosting-Anbieter aktualisiert werden."
+
+#: pages-admin/hupa-api-home.php:30
+msgid "FB API credentials"
+msgstr "FB API-Zugangsdaten"
+
+#: pages-admin/hupa-api-home.php:45
+msgid "Access token saved!"
+msgstr "Access token gespeichert!"
+
+#: pages-admin/hupa-api-home.php:55
+msgid "Synchronisation settings"
+msgstr "Synchronisation-Settings"
+
+#: pages-admin/hupa-api-home.php:63
+msgid "Cronjob active"
+msgstr "Cronjob aktiv"
+
+#: pages-admin/hupa-api-home.php:68
+msgid "Synchronisation interval:"
+msgstr "Synchronisierungsintervall:"
+
+#: pages-admin/hupa-api-home.php:81
+msgid "Update interval for synchronisation."
+msgstr "Update-Intervall für die Synchronisierung."
+
+#: pages-admin/hupa-api-home.php:85
+msgid "Import posts per update:"
+msgstr "Beiträge pro Update Importieren:"
+
+#: pages-admin/hupa-api-home.php:100
+msgid "URL for external cronjob:"
+msgstr "URL für externen Cronjob:"
+
+#: pages-admin/hupa-api-home.php:117 pages-admin/hupa-api-sites.php:243
+msgid "Close"
+msgstr "Schließen"
+
+#: pages-admin/hupa-api-sites.php:59
+msgid "Import and manage Facebook content"
+msgstr "Facebook Inhalte importieren und verwalten"
+
+#: pages-admin/hupa-api-sites.php:63
+msgid "Facebook content and events"
+msgstr "Facebook Inhalte und Veranstaltungen"
+
+#: pages-admin/hupa-api-sites.php:71
+msgid "all imported content"
+msgstr "alle importierten Inhalte"
+
+#: pages-admin/hupa-api-sites.php:76
+msgid "Import new content"
+msgstr "Neue Inhalte importieren"
+
+#: pages-admin/hupa-api-sites.php:210
+msgid "Designation"
+msgstr "Bezeichnung"
+
+#: pages-admin/hupa-api-sites.php:211
+msgid "active"
+msgstr "aktiv"
+
+#: pages-admin/hupa-api-sites.php:212
+msgid "Max. Import"
+msgstr "Max. Import"
+
+#: pages-admin/hupa-api-sites.php:213
+msgid "User ID"
+msgstr "User ID"
+
+#: pages-admin/hupa-api-sites.php:214
+msgid "Page ID"
+msgstr "Page ID"
+
+#: pages-admin/hupa-api-sites.php:215
+msgid "User active"
+msgstr "User aktiv"
+
+#: pages-admin/hupa-api-sites.php:216
+msgid "Post Category"
+msgstr "Post Kategorie"
+
+#: pages-admin/hupa-api-sites.php:217
+msgid "Event Category"
+msgstr "Event Kategorie"
+
+#: pages-admin/hupa-api-sites.php:261 pages-admin/hupa-api-sites.php:314
+msgid "Cancel"
+msgstr "Abbrechen"
+
+#: pages-admin/hupa-api-sites.php:263
+msgid "Delete"
+msgstr "Löschen"
+
+#: pages-admin/hupa-api-sites.php:278
+msgid "Create a new category"
+msgstr "Neue Kategorie erstellen"
+
+#: pages-admin/hupa-api-sites.php:285
+msgid "Name"
+msgstr "Name"
+
+#: pages-admin/hupa-api-sites.php:289
+msgid "This name is then displayed on the website."
+msgstr "Dieser Name wird dann auf der Website angezeigt."
+
+#: pages-admin/hupa-api-sites.php:294
+msgid "Title form"
+msgstr "Titelform"
+
+#: pages-admin/hupa-api-sites.php:298
+msgid ""
+"The \"title form\" is the readable URL variant of the name. It usually "
+"consists only of lower case letters, numbers and hyphens."
+msgstr ""
+"Die „Titelform“ ist die lesbare URL-Variante des Namens. Sie besteht "
+"normalerweise nur aus Kleinbuchstaben, Zahlen und Bindestrichen."
+
+#: pages-admin/hupa-api-sites.php:303
+msgid "Description"
+msgstr "Beschreibung"
+
+#: pages-admin/hupa-api-sites.php:308
+msgid ""
+"The description is not always displayed. In some themes it may be displayed."
+msgstr "Die Beschreibung wird nicht immer angezeigt."
+
+#: pages-admin/hupa-api-sites.php:317
+msgid "create"
+msgstr "Erstellen"
+
+#~ msgid "This option is optional."
+#~ msgstr "Die Auswahl ist optional."
+
+#~ msgid "Graph returned an error: "
+#~ msgstr "Graph gab einen Fehler zurück: "
+
+#~ msgid ""
+#~ "Only user posts are imported. Separate multiple User IDs with a comma or "
+#~ "semicolon."
+#~ msgstr ""
+#~ "Nur Posts der User werden importiert. Mehrere User IDs mit Komma oder "
+#~ "Semikolon trennen."
+
+#~ msgid "This name is displayed on the website."
+#~ msgstr "Dieser Name wird auf der Website angezeigt."
+
+#~ msgid " Facebook Categories"
+#~ msgstr "Facebook Kategorien"
